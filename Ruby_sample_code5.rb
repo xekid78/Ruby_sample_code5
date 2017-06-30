@@ -6,7 +6,7 @@ def output_ememy_hp(enemy_hp)
     puts "敵のHPは残り#{enemy_hp}です"
 end
 
-enemy_hp = gets.to_i
+enemy_hp = 750
 team = {"勇者" => 200, "戦士" => 150, "魔法使い" => 100}
 team.each do |person, power|
     attack(person)
